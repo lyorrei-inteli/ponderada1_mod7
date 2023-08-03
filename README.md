@@ -67,3 +67,8 @@ print("Outliers de temperatura:", get_outliers(temperatura))
 ```
 
 Os valores identificados como outliers são exibidos no console.
+
+## Resultados
+O script retornou que não há outliers para a coluna de temperatura e humidade. Segue abaixo o resultado do console.
+
+![Alt text](image.png)
