@@ -23,7 +23,7 @@ def get_outliers(dados):
     print("IQR:", IQR)
 
     # Calcula os limites inferior e superior
-    limite_inferior = 1.5 * IQR - Q1
+    limite_inferior = Q1-1.5 * IQR 
     limite_superior = 1.5 * IQR + Q3
 
     print("Limite inferior:", limite_inferior)
